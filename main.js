@@ -565,7 +565,8 @@
 		  console.log('Error fetching devices list');
 		  console.log(e);
 	  });
-	  req.open("GET","http://test.xiyouchen.com/devices.json");
+	  //req.open("GET","http://test.xiyouchen.com/devices.json");
+    req.open("GET","http://local.mirobot.io/devices.json");
 	  req.send;
   }
 
