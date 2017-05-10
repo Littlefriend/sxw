@@ -1,5 +1,5 @@
 (function(ext) {
-
+  console.log('sxw insert success');
   // Include the main Mirobot class for connecting
   var Mirobot = function(url){
     this.url = url;
