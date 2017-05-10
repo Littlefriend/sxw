@@ -571,5 +571,6 @@
   }
 
   fetchDevices();
+  console.log('fetched');
   reloadExtension();
 })({});
